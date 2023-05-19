@@ -18,6 +18,7 @@ if moveX > 0 {
 	image_xscale = 1;
 }
 
+//This will stop the player from moving through the target object but the player gets stuck within the sprites collision mask.
 if _collide {
 	moveX = 0;
 }
